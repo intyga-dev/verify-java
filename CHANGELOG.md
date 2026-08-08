@@ -5,7 +5,7 @@ All notable changes to `com.intyga:intyga-verify` are documented here. The forma
 
 ## [Unreleased]
 
-## [0.1.0]
+## [1.0.0]
 
 Initial public release.
 
