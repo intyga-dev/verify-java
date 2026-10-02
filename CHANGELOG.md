@@ -5,6 +5,12 @@ All notable changes to `com.intyga:intyga-verify` are documented here. The forma
 
 ## [Unreleased]
 
+## [1.0.0]
+
+- Packaging: add Central developer/SCM metadata and a `release` profile producing source and Javadoc
+  jars; include the license and changelog in the runtime jar. Signing and publishing remain in the
+  separate release enforcer.
+
 - Verify profile-carried WebAuthn audit signatures with caller-trusted signer keys, origin and RP ID.
   Report explicit per-event signature status and key trust; add strict signature acceptance for
   single and bulk evidence. Audit signature checks do not replace full approval-receipt verification.
@@ -125,7 +131,6 @@ All notable changes to `com.intyga:intyga-verify` are documented here. The forma
   corresponding double reads back as the same number, so Java can never emit digits another port
   would not.
 
-## [1.0.0]
 
 Initial public release.
 
